@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>과제2 - GitHub을 활용 자기 소개 홈페이지 개편</title>
+		<link href="stylesheet/CSSfile.css" rel="stylesheet" type="text/css"> 
+	</head>
+
+	<body>
+		<div id="top">
+			<a href="login.html">로그인</a>/
+			<a href="join.html">회원가입</a>
+		</div>
+		<div id="header">
+			<a href="Profile.html"><img src="images/top.jpg" width="1000" height="200" alt="main logo"/>
+			</a>
+		</div>
+		<div id="navigation">
+			<ul>
+				<li><a href="Profile.html">Profile<br/></a></li>
+				<li><a href="Photo.html">Photo Album<br/></a></li>
+				<li><a href="Visitor.html">Visitor<br/></a></li>
+			</ul>
+		</div>
+		<div id="content">
+			<form action="#" method="post">
+				<table>
+					<caption><h1>비공개 방명록</h1></caption>
+					<tr>
+						<th>나이</th>
+						<td><select name="age">
+							<option value="10">10대</option>
+							<option value="20">20대</option>
+							<option value="30">30대</option>
+							<option value="40">40대</option>
+							<option value="etc">기타</option>
+						</select></td>
+					</tr>
+					<tr>
+						<th>성별</th>
+						<td><input type="radio" name="sex" value="m"/>남<input type="radio" name="sex" value="f"/>여</td>
+					</tr>
+					<tr>
+						<th>주소</th>
+						<td><select name="address">
+							<option value="seoul">서울</option>
+							<option value="busan">부산</option>
+							<option value="kungki">경기</option>
+							<option value="etc2">기타</option>
+						</select></td>
+					</tr>	
+
+					<tr>
+						<th colspan="2">하고싶은 말</th>
+					</tr>
+					<tr>
+						<td colspan="2"><textarea cols="50" rows="5" name="text"></textarea></td>
+					</tr>
+					<tr>
+						<th colspan="2"><input type="submit" value="제출하기"/></th>
+					</tr>
+				</table>
+			</form>
+		</div>
+		<div id="footer">60092389 / 박준병 / <a href="mailto:artroy1990@naver.com">artroy1990@naver.com</a>
+		</div>	
+	</body>
+</html>
